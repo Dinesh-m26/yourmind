@@ -121,3 +121,25 @@ body {
     border-radius: 5px;
     border: none;
 }
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .maincontent {
+        width: 100%; /* Full width on smaller screens */
+        margin-right: 0; /* Remove right margin on smaller screens */
+        margin-bottom: 20px; /* Add bottom margin for spacing */
+    }
+
+    .add-popup-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .popupbox {
+        width: 80%;
+        left: 10%;
+    }
+}
+
+/* Your existing CSS styles */
+/* ... */
